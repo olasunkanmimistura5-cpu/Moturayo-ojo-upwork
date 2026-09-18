@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Christian Nonfiction Book Editor for Pastors &amp; Authors | Motunrayo Olasunkanmi</title>
+<meta name="description" content="Developmental, line and copy editing for Christian nonfiction: memoirs, devotionals, theology, self-help. Publish-ready manuscripts for Amazon KDP and IngramSpark. Based in Lagos, working with authors worldwide.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+<meta name="author" content="Motunrayo Olasunkanmi">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#070B24">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Motunrayo Olasunkanmi — Book Editor">
+<meta property="og:title" content="Christian Nonfiction Book Editor for Pastors &amp; Authors">
+<meta property="og:description" content="I protect your message and your voice, and fix everything around it. Developmental, line and copy editing for Christian nonfiction, ready for Amazon KDP and IngramSpark.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/assets/motunrayo.jpg">
+<meta property="og:image:alt" content="Motunrayo Olasunkanmi, Christian nonfiction book editor">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Christian Nonfiction Book Editor for Pastors &amp; Authors">
+<meta name="twitter:description" content="Developmental, line and copy editing for memoirs, devotionals, theology and self-help. Publish-ready for KDP and IngramSpark.">
+<meta name="twitter:image" content="https://YOUR-USERNAME.github.io/assets/motunrayo.jpg">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23070B24'/><text x='16' y='23' font-size='19' font-family='Georgia,serif' fill='%23C89B3C' text-anchor='middle'>M</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&display=swap" rel="stylesheet">
+
+<style>
+/* ---------- tokens ---------- */
+:root{
+  --ink:#070B24;          /* midnight */
+  --indigo:#141C4E;       /* deep indigo panel */
+  --indigo-lift:#252F7A;  /* raised indigo */
+  --indigo-line:rgba(246,238,220,.16);
+  --cream:#F6EEDC;        /* vanilla */
+  --cream-deep:#EADCBD;   /* aged page */
+  --cream-dim:rgba(246,238,220,.62);
+  --gilt:#C89B3C;         /* gilded page edge */
+  --gilt-soft:rgba(200,155,60,.28);
+  --mark:#D6455B;         /* editor's pen — markup only */
+  --ok:#5FA37A;
+
+  --measure:66ch;
+  --pad:clamp(1.25rem,5vw,4.5rem);
+  --rule:1px solid var(--indigo-line);
+
+  --f-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --f-text:"Newsreader",Georgia,"Times New Roman",serif;
+
+  --t1:clamp(2.6rem,7.4vw,5.6rem);
+  --t2:clamp(1.9rem,4.2vw,3.1rem);
+  --t3:clamp(1.3rem,2.4vw,1.75rem);
+  --tb:clamp(1.03rem,1.05vw,1.15rem);
+  --ts:.92rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+body{
+  margin:0;background:var(--ink);color:var(--cream);
+  font-family:var(--f-text);font-size:var(--tb);line-height:1.68;
+  font-optical-sizing:auto;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2.5px solid var(--gilt);outline-offset:3px;border-radius:2px}
+
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;line-height:1.08;margin:0;
+  font-variation-settings:"SOFT" 0,"WONK" 1;letter-spacing:-.015em}
+h2{font-size:var(--t2)}
+h3{font-size:var(--t3);line-height:1.2}
+p{margin:0 0 1rem;max-width:var(--measure)}
+.lead{font-size:clamp(1.1rem,1.7vw,1.32rem);color:var(--cream-dim);line-height:1.6}
+
+.wrap{width:min(1180px,100%);margin-inline:auto;padding-inline:var(--pad)}
+section{padding-block:clamp(3.5rem,8vw,6.5rem);position:relative}
+.sec-head{margin-bottom:clamp(2rem,4vw,3rem)}
+.sec-head p{max-width:58ch}
+
+/* gutter marginalia — the signature device */
+.note{
+  font-size:.88rem;line-height:1.5;color:var(--gilt);
+  border-left:2px solid var(--gilt-soft);padding-left:.85rem;
+  font-style:italic;max-width:30ch;margin:1.5rem 0 0;
+}
+
+/* ---------- skip + nav ---------- */
+.skip{position:absolute;left:-999px;top:0;background:var(--cream);color:var(--ink);padding:.7rem 1rem;z-index:200}
+.skip:focus{left:.5rem;top:.5rem}
+
+header.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(7,11,36,.86);backdrop-filter:blur(14px);
+  border-bottom:var(--rule);
+}
+.nav-in{display:flex;align-items:center;gap:1.5rem;min-height:68px}
+.brand{font-family:var(--f-display);font-weight:700;font-size:1.12rem;text-decoration:none;letter-spacing:-.02em;white-space:nowrap}
+.brand span{color:var(--gilt)}
+.nav-links{display:flex;gap:1.6rem;margin-left:auto;align-items:center}
+.nav-links a{text-decoration:none;font-size:.97rem;color:var(--cream-dim);padding:.3rem 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.nav-links a:hover{color:var(--cream);border-color:var(--gilt)}
+.nav-cta{background:var(--gilt);color:var(--ink)!important;padding:.55rem 1.05rem;border-radius:999px;font-weight:600;border:none!important}
+.nav-cta:hover{background:#dcae4c}
+.burger{display:none;margin-left:auto;background:none;border:1px solid var(--indigo-line);color:var(--cream);border-radius:8px;padding:.5rem .7rem;font-size:1rem;cursor:pointer}
+@media (max-width:900px){
+  .nav-links{position:fixed;inset:68px 0 auto;flex-direction:column;align-items:stretch;gap:0;
+    background:var(--ink);border-bottom:var(--rule);padding:.5rem var(--pad) 1.5rem;
+    transform:translateY(-130%);transition:transform .32s ease;margin:0}
+  .nav-links.open{transform:translateY(0)}
+  .nav-links a{padding:.9rem 0;border-bottom:var(--rule);font-size:1.05rem}
+  .nav-cta{text-align:center;margin-top:1rem;border-radius:999px}
+  .burger{display:block}
+}
+
+/* ---------- hero ---------- */
+.hero{padding-top:clamp(3rem,7vw,5.5rem);padding-bottom:clamp(3rem,6vw,5rem);overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(60rem 34rem at 78% -10%,rgba(37,47,122,.55),transparent 62%),
+    radial-gradient(34rem 24rem at 4% 108%,rgba(200,155,60,.10),transparent 70%);
+}
+.hero .wrap{position:relative}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+@media (max-width:920px){.hero-grid{grid-template-columns:1fr}}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-size:.9rem;color:var(--gilt);margin-bottom:1.2rem}
+.eyebrow::before{content:"";width:1.9rem;height:1px;background:var(--gilt)}
+h1{font-size:var(--t1);font-weight:500;letter-spacing:-.03em;margin-bottom:1.3rem}
+h1 em{font-style:italic;font-variation-settings:"WONK" 1;color:var(--gilt)}
+.hero p{max-width:52ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:2rem}
+.btn{display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;font-family:var(--f-text);
+  font-size:1rem;font-weight:600;padding:.85rem 1.5rem;border-radius:999px;border:1px solid transparent;
+  cursor:pointer;transition:transform .18s,background .2s,color .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gilt{background:var(--gilt);color:var(--ink)}
+.btn-gilt:hover{background:#dcae4c}
+.btn-ghost{border-color:var(--indigo-line);color:var(--cream);background:rgba(246,238,220,.04)}
+.btn-ghost:hover{border-color:var(--gilt);color:var(--gilt)}
+
+/* the manuscript card: hero performs an edit */
+.ms{
+  background:var(--cream);color:#1d1c19;border-radius:4px 14px 14px 4px;
+  padding:clamp(1.4rem,3vw,2.2rem) clamp(1.3rem,3vw,2rem) clamp(1.4rem,3vw,2.2rem) clamp(2.2rem,4vw,3rem);
+  position:relative;box-shadow:-14px 22px 0 rgba(37,47,122,.42);
+  font-size:1.04rem;line-height:1.95;
+}
+.ms::before{content:"";position:absolute;left:1.15rem;top:0;bottom:0;width:1px;background:rgba(214,69,91,.4)}
+.ms::after{content:"";position:absolute;left:0;top:0;bottom:0;width:.5rem;background:linear-gradient(90deg,var(--gilt),rgba(200,155,60,.35))}
+.ms-tag{position:absolute;top:-.75rem;right:1.2rem;background:var(--indigo-lift);color:var(--cream);
+  font-size:.74rem;padding:.3rem .75rem;border-radius:999px;letter-spacing:.02em}
+.ms p{max-width:none;margin:0}
+.cut{color:var(--mark);text-decoration:line-through;text-decoration-thickness:1.5px}
+.add{color:#15602f;border-bottom:2px solid rgba(21,96,47,.35)}
+.ms .stage2{display:none}
+.ms.done .stage1{display:none}
+.ms.done .stage2{display:inline}
+.ms-foot{margin-top:1.3rem;padding-top:.9rem;border-top:1px dashed rgba(29,28,25,.25);
+  font-size:.85rem;font-style:italic;color:#55524a;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.caret{display:inline-block;width:2px;height:1.05em;background:var(--mark);vertical-align:-.15em;animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* ---------- trust strip ---------- */
+.strip{border-block:var(--rule);background:rgba(20,28,78,.35)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;padding-block:1.8rem}
+@media (max-width:760px){.strip .wrap{grid-template-columns:repeat(2,1fr)}}
+.stat b{display:block;font-family:var(--f-display);font-size:1.45rem;font-weight:600;color:var(--gilt);line-height:1.2}
+.stat span{font-size:.88rem;color:var(--cream-dim)}
+
+/* ---------- answer block (AEO) ---------- */
+.answer{background:var(--indigo);border:1px solid var(--indigo-line);border-left:4px solid var(--gilt);
+  border-radius:0 12px 12px 0;padding:clamp(1.4rem,3vw,2rem)}
+.answer p:last-child{margin-bottom:0}
+
+/* ---------- pain list ---------- */
+.pains{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.1rem;margin-top:1rem}
+.pain{padding:1.3rem 1.4rem;border:var(--rule);border-radius:12px;background:rgba(20,28,78,.28)}
+.pain p{margin:0;font-size:.98rem;color:var(--cream-dim)}
+.pain b{display:block;font-family:var(--f-display);font-size:1.06rem;color:var(--cream);margin-bottom:.35rem}
+
+/* ---------- services ---------- */
+.svc{display:grid;gap:0;border-top:var(--rule)}
+.svc article{display:grid;grid-template-columns:minmax(0,7rem) minmax(0,1fr) minmax(0,16rem);
+  gap:clamp(1rem,3vw,2.5rem);padding:clamp(1.6rem,3.2vw,2.4rem) 0;border-bottom:var(--rule);align-items:start}
+@media (max-width:860px){.svc article{grid-template-columns:1fr;gap:.9rem}}
+.svc-no{font-family:var(--f-display);font-size:1.6rem;color:var(--gilt);font-weight:400;font-style:italic}
+.svc h3{margin-bottom:.6rem}
+.svc p{margin-bottom:.8rem;color:var(--cream-dim)}
+.tags{display:flex;flex-wrap:wrap;gap:.45rem;list-style:none;padding:0;margin:0}
+.tags li{font-size:.83rem;padding:.3rem .7rem;border:1px solid var(--gilt-soft);border-radius:999px;color:var(--gilt)}
+.svc-best{background:rgba(37,47,122,.3);border:var(--rule);border-radius:12px;padding:1rem 1.15rem;font-size:.92rem;color:var(--cream-dim)}
+.svc-best b{color:var(--cream);font-family:var(--f-display);display:block;margin-bottom:.3rem;font-size:.95rem}
+
+/* ---------- process ---------- */
+.steps{counter-reset:s;display:grid;gap:1.6rem;position:relative;padding-left:2.6rem}
+.steps::before{content:"";position:absolute;left:.72rem;top:.4rem;bottom:.4rem;width:1px;background:var(--gilt-soft)}
+.step{position:relative}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:-2.6rem;top:-.1rem;
+  width:1.5rem;height:1.5rem;border-radius:50%;background:var(--ink);border:1px solid var(--gilt);
+  color:var(--gilt);font-size:.8rem;display:grid;place-items:center;font-family:var(--f-display)}
+.step h3{font-size:1.15rem;margin-bottom:.25rem}
+.step p{margin:0;color:var(--cream-dim);font-size:.98rem}
+
+/* ---------- sample toggle ---------- */
+.sample{background:var(--cream);color:#1d1c19;border-radius:14px;padding:clamp(1.4rem,3vw,2.2rem);max-width:60ch}
+.sample p{max-width:none;font-size:1.05rem;line-height:1.85}
+.switch{display:inline-flex;background:rgba(7,11,36,.1);border-radius:999px;padding:.25rem;margin-bottom:1.3rem;gap:.2rem}
+.switch button{border:0;background:none;font-family:var(--f-text);font-size:.92rem;font-weight:600;
+  padding:.45rem 1.1rem;border-radius:999px;cursor:pointer;color:#55524a}
+.switch button[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
+.sample-note{font-size:.88rem;color:#55524a;font-style:italic;margin-top:1.2rem;border-top:1px dashed rgba(29,28,25,.25);padding-top:.9rem}
+
+/* ---------- genres ---------- */
+.genres{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0;margin:0}
+.genres li{border:var(--rule);border-radius:10px;padding:.6rem 1rem;font-size:.95rem;background:rgba(20,28,78,.28)}
+.genres li::before{content:"✦";color:var(--gilt);margin-right:.5rem;font-size:.8rem}
+
+/* ---------- about ---------- */
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(1.8rem,4vw,3.5rem);align-items:start}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}}
+.portrait{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--gilt-soft);
+  box-shadow:18px 18px 0 rgba(37,47,122,.35)}
+.portrait img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- FAQ ---------- */
+.faq-groups{display:grid;gap:2.5rem}
+.faq-group h3{color:var(--gilt);font-size:1.05rem;font-style:italic;font-weight:400;margin-bottom:.9rem;
+  padding-bottom:.5rem;border-bottom:var(--rule)}
+details{border-bottom:var(--rule)}
+details summary{list-style:none;cursor:pointer;padding:1.05rem 2.5rem 1.05rem 0;position:relative;
+  font-family:var(--f-display);font-size:1.04rem;font-weight:500;line-height:1.35;transition:color .2s}
+details summary::-webkit-details-marker{display:none}
+details summary:hover{color:var(--gilt)}
+details summary::after{content:"+";position:absolute;right:.35rem;top:50%;transform:translateY(-50%);
+  color:var(--gilt);font-size:1.35rem;font-family:var(--f-text);line-height:1}
+details[open] summary::after{content:"–"}
+details[open] summary{color:var(--gilt)}
+.faq-body{padding:0 2.5rem 1.3rem 0}
+.faq-body p{color:var(--cream-dim);font-size:.99rem;margin-bottom:.7rem}
+.faq-body p:last-child{margin-bottom:0}
+.faq-body a{color:var(--gilt)}
+
+/* ---------- contact ---------- */
+.contact{background:var(--indigo);border-top:1px solid var(--indigo-line)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:start}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+.direct{display:grid;gap:.9rem;margin-top:1.6rem}
+.direct a{display:flex;align-items:center;gap:.9rem;text-decoration:none;padding:1rem 1.2rem;
+  border:1px solid var(--indigo-line);border-radius:12px;background:rgba(7,11,36,.45);transition:border-color .2s,transform .18s}
+.direct a:hover{border-color:var(--gilt);transform:translateX(4px)}
+.direct b{display:block;font-family:var(--f-display);font-size:1rem}
+.direct span{font-size:.9rem;color:var(--cream-dim);word-break:break-word}
+.ic{width:2.4rem;height:2.4rem;flex:none;border-radius:50%;background:rgba(200,155,60,.14);
+  display:grid;place-items:center;color:var(--gilt)}
+form{display:grid;gap:.9rem;background:rgba(7,11,36,.45);border:1px solid var(--indigo-line);
+  border-radius:14px;padding:clamp(1.3rem,3vw,1.9rem)}
+label{font-size:.88rem;color:var(--cream-dim);display:block;margin-bottom:.35rem}
+input,select,textarea{width:100%;background:rgba(246,238,220,.05);border:1px solid var(--indigo-line);
+  border-radius:9px;padding:.7rem .85rem;color:var(--cream);font-family:var(--f-text);font-size:.98rem}
+textarea{resize:vertical;min-height:110px}
+input::placeholder,textarea::placeholder{color:rgba(246,238,220,.35)}
+select option{background:var(--ink);color:var(--cream)}
+.form-note{font-size:.84rem;color:var(--cream-dim);margin:0}
+
+/* ---------- footer ---------- */
+footer{border-top:var(--rule);padding-block:2.5rem;font-size:.9rem;color:var(--cream-dim)}
+.foot-grid{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:center}
+.foot-links{display:flex;flex-wrap:wrap;gap:1.2rem;list-style:none;margin:0;padding:0}
+.foot-links a{text-decoration:none}
+.foot-links a:hover{color:var(--gilt)}
+
+/* floating whatsapp */
+.float{position:fixed;right:1rem;bottom:1rem;z-index:90;background:#1fa855;color:#fff;
+  width:3.3rem;height:3.3rem;border-radius:50%;display:grid;place-items:center;text-decoration:none;
+  box-shadow:0 8px 24px rgba(0,0,0,.4);transition:transform .2s}
+.float:hover{transform:scale(1.08)}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">Motunrayo <span>Olasunkanmi</span></a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="nav-links" id="menu" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#sample">Sample edit</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#contact">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div id="top"></div>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Christian nonfiction book editor · Lagos, Nigeria</p>
+      <h1>Your message is sound. Let's make the <em>writing</em> carry it.</h1>
+      <p class="lead">I edit memoirs, devotionals, theology, self-help and personal development manuscripts for pastors, ministry leaders and first-time authors — and hand them back clean, consistent and ready for Amazon KDP or IngramSpark.</p>
+      <div class="cta-row">
+        <a class="btn btn-gilt" href="#contact">Get a free sample edit</a>
+        <a class="btn btn-ghost" href="#services">See what editing you need</a>
+      </div>
+      <p class="note">Every manuscript starts with 1,000 words edited free, so you can see the work before you pay for it.</p>
+    </div>
+
+    <figure class="ms" id="ms" aria-label="Example of a line edit in progress">
+      <span class="ms-tag">Line edit in progress</span>
+      <p>
+        <span class="stage1">In this chapter, I want to basically share with you the very real fact that <span id="typing"></span><span class="caret" id="caret"></span></span>
+        <span class="stage2">In this chapter <span class="cut">, I want to basically share with you the very real fact that</span> <span class="add">I want to tell you about</span> the night I stopped praying — and what God did with my silence.</span>
+      </p>
+      <figcaption class="ms-foot">
+        <span>Chapter 4 — “The Year of Quiet”</span>
+        <span>−14 words · voice intact</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= TRUST STRIP ================= -->
+<div class="strip">
+  <div class="wrap">
+    <div class="stat"><b>Rising Talent</b><span>Verified Upwork freelancer</span></div>
+    <div class="stat"><b>KDP &amp; IngramSpark</b><span>Publish-ready files</span></div>
+    <div class="stat"><b>1,000 words</b><span>Free sample edit</span></div>
+    <div class="stat"><b>GMT+1</b><span>Lagos — overlaps US &amp; UK hours</span></div>
+  </div>
+</div>
+
+<!-- ================= WHAT I DO (AEO answer block) ================= -->
+<section id="what">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>What a book editor actually does for you</h2>
+    </div>
+    <div class="answer">
+      <p><strong>Short answer:</strong> a book editor takes a finished draft and makes it readable, consistent and credible without changing who wrote it. I work in three passes — developmental editing fixes the structure and argument, line and copy editing fixes the sentences, grammar and consistency, and proofreading catches the last errors before the file goes to print.</p>
+      <p>For Christian nonfiction there is a fourth job that general editors miss: guarding doctrine and Scripture. I check every quoted verse against the translation you named, keep your citation style consistent, flag places where a claim needs support, and tell you honestly when a chapter preaches instead of writes.</p>
+      <p style="margin-bottom:0">My job is to protect your message and your voice while fixing everything around it.</p>
+    </div>
+
+    <div class="pains">
+      <div class="pain"><b>The draft is done, but it rambles</b><p>Chapters repeat, the testimony arrives too late, and readers drift by chapter three.</p></div>
+      <div class="pain"><b>It reads like a sermon, not a book</b><p>Preaching works from a pulpit. On the page it needs a different rhythm — I rebuild it without losing the fire.</p></div>
+      <div class="pain"><b>Scripture is inconsistent</b><p>Three translations in one chapter, unmarked paraphrases, and references that do not match the verse.</p></div>
+      <div class="pain"><b>KDP rejected the file</b><p>Front matter, headings, page numbers and trim size all have rules. I prepare the manuscript so formatting goes smoothly.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Editing services</h2>
+      <p class="lead">Not sure which one you need? Send the manuscript. I read it and tell you — and I will say so if you only need the cheaper pass.</p>
+    </div>
+
+    <div class="svc">
+      <article>
+        <div class="svc-no">i</div>
+        <div>
+          <h3>Developmental editing</h3>
+          <p>The big-picture pass. I look at structure, argument, chapter order, pacing, theology and whether the book keeps the promise its title makes. You get a written editorial report plus in-manuscript notes on what to cut, move, expand or rethink.</p>
+          <ul class="tags"><li>Editorial report</li><li>Chapter restructure</li><li>Argument &amp; flow</li><li>Reader clarity</li></ul>
+        </div>
+        <div class="svc-best"><b>Best for</b>Finished first drafts, sermon series being turned into a book, and memoirs that are all true but not yet in the right order.</div>
+      </article>
+
+      <article>
+        <div class="svc-no">ii</div>
+        <div>
+          <h3>Line editing</h3>
+          <p>Sentence by sentence. I cut padding, fix rhythm, break up sermon-length paragraphs, strengthen weak verbs and make transitions land — all in Word with tracked changes, so you approve or reject every single edit.</p>
+          <ul class="tags"><li>Tracked changes</li><li>Voice preserved</li><li>Tone &amp; rhythm</li><li>Margin comments</li></ul>
+        </div>
+        <div class="svc-best"><b>Best for</b>Manuscripts where the structure is already right but the prose feels heavy, repetitive or stiff.</div>
+      </article>
+
+      <article>
+        <div class="svc-no">iii</div>
+        <div>
+          <h3>Copy editing</h3>
+          <p>Grammar, punctuation, spelling, tense, capitalisation of divine pronouns, Scripture references, quotation formatting and a style sheet so every choice stays consistent from page one to the end. Chicago Manual of Style by default; I follow your publisher's guide if you have one.</p>
+          <ul class="tags"><li>Style sheet</li><li>Scripture checked</li><li>CMOS</li><li>US or UK English</li></ul>
+        </div>
+        <div class="svc-best"><b>Best for</b>Books heading to KDP or IngramSpark that need to look professionally produced.</div>
+      </article>
+
+      <article>
+        <div class="svc-no">iv</div>
+        <div>
+          <h3>Proofreading</h3>
+          <p>The final read before publication. Typos, double spaces, broken headings, wrong page references, stray formatting — the small errors that make a good book look self-published in the bad way.</p>
+          <ul class="tags"><li>Final pass</li><li>Front &amp; back matter</li><li>Print-ready check</li></ul>
+        </div>
+        <div class="svc-best"><b>Best for</b>Books already edited and laid out, one step from upload.</div>
+      </article>
+
+      <article>
+        <div class="svc-no">v</div>
+        <div>
+          <h3>Publishing prep for KDP &amp; IngramSpark</h3>
+          <p>Front matter and back matter built properly — title page, copyright page, dedication, foreword, about the author, ministry links and a call to action that actually converts readers into your community. Plus book description and keyword help so people can find the book once it is live.</p>
+          <ul class="tags"><li>Front &amp; back matter</li><li>Book blurb</li><li>Amazon keywords</li><li>Metadata</li></ul>
+        </div>
+        <div class="svc-best"><b>Best for</b>Self-publishing authors who do not want to learn Amazon's rules the hard way.</div>
+      </article>
+    </div>
+    <p class="note">Most books need two passes, not four. I will tell you which two.</p>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>How we work together</h2>
+      <p class="lead">Five steps from first message to a manuscript you can upload.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>You send the manuscript</h3><p>A Word file, a Google Doc, or even the chapters you have so far. Tell me the word count, your deadline and who the book is for.</p></div>
+      <div class="step"><h3>Free 1,000-word sample edit</h3><p>I edit a section for free so you can see exactly how I work and whether my touch on your voice feels right. No payment, no obligation.</p></div>
+      <div class="step"><h3>Quote and schedule</h3><p>You get a fixed price, a clear scope and a delivery date in writing. We agree the style guide, Bible translation and English variant before I start.</p></div>
+      <div class="step"><h3>The edit</h3><p>I work in tracked changes with margin comments explaining the why behind significant edits. For longer books I deliver in batches so you are never waiting in the dark.</p></div>
+      <div class="step"><h3>Review and clean file</h3><p>You accept or reject changes and send questions. One round of follow-up is included. You end with a clean, publish-ready manuscript and a style sheet.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SAMPLE ================= -->
+<section id="sample">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>See an edit before you commit</h2>
+      <p class="lead">Same paragraph, same author, same message. Only the writing changed.</p>
+    </div>
+    <div class="switch" role="group" aria-label="Toggle sample version">
+      <button id="btn-before" aria-pressed="true">Before</button>
+      <button id="btn-after" aria-pressed="false">After</button>
+    </div>
+    <div class="sample">
+      <p id="sample-text">It was at that particular point in time that I came to the personal realisation that the God who I had been serving for the past twenty-two years of my life was not actually a God who was far away from me, but rather He was a God who was very much present in the midst of my situation, even though I could not feel Him at all.</p>
+      <p class="sample-note" id="sample-note">The author's first draft — 63 words, one sentence, five padding phrases.</p>
+    </div>
+    <p class="note">Your free sample edit uses your own words, not this one.</p>
+  </div>
+</section>
+
+<!-- ================= GENRES ================= -->
+<section id="genres">
+  <div class="wrap">
+    <div class="sec-head"><h2>Books I edit</h2></div>
+    <ul class="genres">
+      <li>Christian memoir &amp; testimony</li>
+      <li>Devotionals</li>
+      <li>Bible studies &amp; study guides</li>
+      <li>Theology &amp; apologetics</li>
+      <li>Sermon-to-book projects</li>
+      <li>Christian self-help</li>
+      <li>Personal development</li>
+      <li>Leadership &amp; ministry</li>
+      <li>Marriage &amp; family</li>
+      <li>Prayer &amp; spiritual growth</li>
+      <li>Women's ministry</li>
+      <li>General nonfiction</li>
+    </ul>
+    <p class="note">Writing fiction? I will refer you to an editor who lives in that world. It is not mine.</p>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="portrait">
+      <img src="assets/motunrayo.jpg" width="1080" height="980" alt="Motunrayo Olasunkanmi, Christian nonfiction book editor based in Lagos, Nigeria" loading="lazy">
+    </div>
+    <div>
+      <div class="sec-head" style="margin-bottom:1.5rem"><h2>I read like a reader. I edit like an editor.</h2></div>
+      <p>I am Motunrayo, a Christian and nonfiction book editor working with authors from Lagos, Nigeria. Most of the people I work with are pastors, ministry leaders and professionals writing their first book — people with something worth saying who have never been taught how a book is supposed to be built.</p>
+      <p>That is the gap I close. I do not rewrite you into someone else and I do not flatten your voice into neutral publishing English. I find where the reader gets lost, where the sentence works against you, where a verse is misquoted, and where you have buried the best thing you wrote on page forty.</p>
+      <p>I take doctrine seriously and I keep your convictions intact. If I disagree with something theologically, I flag it as a question, not a correction. The book stays yours.</p>
+      <p>I work in Microsoft Word with tracked changes, follow the Chicago Manual of Style unless you use another, and deliver on the date I promised.</p>
+      <div class="cta-row">
+        <a class="btn btn-gilt" href="#contact">Start with a free sample edit</a>
+        <a class="btn btn-ghost" href="https://www.upwork.com/freelancers/~01668663d2d260cf58" target="_blank" rel="noopener">View my Upwork profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Questions authors ask me</h2>
+      <p class="lead">If your question is not here, message me on WhatsApp and I will answer it plainly.</p>
+    </div>
+
+    <div class="faq-groups">
+
+      <div class="faq-group">
+        <h3>Getting started</h3>
+
+        <details>
+          <summary>What kind of books do you edit?</summary>
+          <div class="faq-body"><p>Christian nonfiction and general nonfiction: memoirs and testimonies, devotionals, Bible studies, theology and apologetics, sermon-to-book projects, Christian self-help, personal development, leadership, marriage and family books. I do not edit fiction, academic dissertations or technical manuals, and I will refer you to someone who does rather than take work I cannot do well.</p></div>
+        </details>
+
+        <details>
+          <summary>Do I need a developmental edit, a line edit, or just proofreading?</summary>
+          <div class="faq-body">
+            <p>If you are unsure whether the book works at all — whether the chapters are in the right order, whether readers will follow the argument — you need a developmental edit. If the structure is right but the writing feels heavy, repetitive or preachy, you need a line edit. If the writing is already strong and you want grammar, Scripture references and consistency handled, you need a copy edit. If the book is finished and formatted and you want a last safety net before upload, you need proofreading.</p>
+            <p>Send the manuscript and I will tell you which one you actually need. I regularly tell authors they need less than they asked for.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Can I see your work before I pay?</summary>
+          <div class="faq-body"><p>Yes. I edit 1,000 words of your manuscript free, with tracked changes and comments, before any money changes hands. It is the fastest way for both of us to know whether we are a good fit.</p></div>
+        </details>
+
+        <details>
+          <summary>My manuscript is not finished yet. Should I still contact you?</summary>
+          <div class="faq-body"><p>Yes, especially if you are stuck. A short structural consultation on an unfinished draft can save you months of writing in the wrong direction. That said, a full developmental edit works best on a complete draft, however rough it is.</p></div>
+        </details>
+
+        <details>
+          <summary>What file format do you need?</summary>
+          <div class="faq-body"><p>Microsoft Word (.docx) is best, because tracked changes and comments work properly there. I can also work from a Google Doc. PDFs are difficult to edit, so if that is all you have, tell me and we will sort it out.</p></div>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <h3>Price, time and payment</h3>
+
+        <details>
+          <summary>How much does editing cost?</summary>
+          <div class="faq-body">
+            <p>Price depends on three things: the length of the manuscript, the level of editing it needs, and how soon you need it back. I quote a fixed price for the whole project after reading a sample, so there are no surprises and no meter running. Hourly work starts at $10 per hour through Upwork.</p>
+            <p>Send your word count and your deadline and you will have a quote, usually within 24 hours.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>How long will my book take?</summary>
+          <div class="faq-body"><p>As a rough guide: a copy edit or proofread of a 50,000-word manuscript takes about one to two weeks. A line edit takes two to three. A developmental edit takes three to four, because it involves reading the whole book before touching a word. You get an exact delivery date in writing before we start, and I deliver longer books in batches so you can begin reviewing while I work.</p></div>
+        </details>
+
+        <details>
+          <summary>Do you offer a rush service?</summary>
+          <div class="faq-body"><p>Sometimes, depending on my schedule. Rush work carries a surcharge because it means moving other authors. Ask, and I will tell you honestly whether I can do it well in the time you have. I would rather decline than deliver a rushed edit with your name on it.</p></div>
+        </details>
+
+        <details>
+          <summary>How do I pay, and is it safe?</summary>
+          <div class="faq-body"><p>Most clients hire me through Upwork, where payment is held in escrow and released when you are satisfied — that protects you as much as it protects me. For direct clients I usually take 50% to start and 50% on delivery, by bank transfer or an agreed international method. Terms are always written down before work begins.</p></div>
+        </details>
+
+        <details>
+          <summary>What if I am not happy with the edit?</summary>
+          <div class="faq-body"><p>Tell me specifically what is not working and I will fix it. One round of revisions is included in every project. Because every edit is delivered in tracked changes, you can also reject anything you disagree with yourself, line by line. And because you see a free sample first, real mismatches almost never get that far.</p></div>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <h3>How the editing works</h3>
+
+        <details>
+          <summary>Will you change my voice?</summary>
+          <div class="faq-body"><p>No. Protecting your voice is the whole job. I cut what gets in the way of it — padding, repetition, tangled sentences — so what remains sounds more like you, not less. Where a change is significant, I leave a comment explaining why, and you decide.</p></div>
+        </details>
+
+        <details>
+          <summary>How do you handle Scripture and doctrine?</summary>
+          <div class="faq-body">
+            <p>We agree on your Bible translation before I start, and I check every quoted verse against it word for word. Citations are formatted consistently, paraphrases are marked as paraphrases, and divine pronoun capitalisation follows the style you choose and stays that way throughout.</p>
+            <p>On doctrine, I do not impose my own position. If a statement seems unsupported or could be misread, I raise it as a margin question so you can decide. Your theology stays yours.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>What style guide do you use?</summary>
+          <div class="faq-body"><p>The Chicago Manual of Style by default, which is the standard for trade nonfiction, alongside Merriam-Webster for spelling. If your publisher uses another guide, I follow theirs. Every project comes with a style sheet recording the choices made, which matters if you write a second book.</p></div>
+        </details>
+
+        <details>
+          <summary>Can you edit in British English?</summary>
+          <div class="faq-body"><p>Yes. We set US or UK English at the start and I keep it consistent throughout — spelling, punctuation, quotation marks and date formats.</p></div>
+        </details>
+
+        <details>
+          <summary>English is my second language. Will you be able to work with my draft?</summary>
+          <div class="faq-body"><p>Absolutely, and I do it often. A strong message written in imperfect English is far easier to fix than a weak message written fluently. I will smooth the grammar and phrasing while keeping the cadence that makes your writing yours.</p></div>
+        </details>
+
+        <details>
+          <summary>Do you use AI to edit my book?</summary>
+          <div class="faq-body"><p>No. Your manuscript is read and edited by me. I may use standard spelling and consistency checkers the way every professional editor does, but judgement calls about your argument, your voice and your theology are human ones, and they are mine.</p></div>
+        </details>
+
+        <details>
+          <summary>Can you write or ghostwrite the book for me?</summary>
+          <div class="faq-body"><p>My core service is editing what you have written. For authors who have the message but not the pages, I can discuss developmental coaching or ghostwriting support separately — message me with what you have and what you want the finished book to be.</p></div>
+        </details>
+      </div>
+
+      <div class="faq-group">
+        <h3>Publishing, rights and logistics</h3>
+
+        <details>
+          <summary>Will you help me publish on Amazon KDP or IngramSpark?</summary>
+          <div class="faq-body"><p>I prepare the manuscript so publishing goes smoothly: correctly ordered front and back matter, consistent heading structure, a copyright page, an author bio, and a book description with keywords that help readers find you. I am not a cover designer or an interior formatter, but I will point you to the right person and make sure what you hand them is clean.</p></div>
+        </details>
+
+        <details>
+          <summary>Is my manuscript kept confidential?</summary>
+          <div class="faq-body"><p>Yes. I do not share, quote or publish any part of your manuscript, and I will sign a non-disclosure agreement if you want one. Unpublished work stays private, always.</p></div>
+        </details>
+
+        <details>
+          <summary>Do you take any rights or royalties in my book?</summary>
+          <div class="faq-body"><p>None. You own your book completely — copyright, royalties and all decisions. I am a service provider, not a publisher or a partner. I do ask that you let me know when it launches, because I like seeing them go out.</p></div>
+        </details>
+
+        <details>
+          <summary>You are in Nigeria and I am not. Does that matter?</summary>
+          <div class="faq-body"><p>Not at all. I work with authors across the US, UK, Canada and Africa. Lagos is GMT+1, which overlaps comfortably with both European and American working hours, and we communicate by email, WhatsApp or Upwork messages, plus video calls when they help.</p></div>
+        </details>
+
+        <details>
+          <summary>How quickly do you reply?</summary>
+          <div class="faq-body"><p>Usually within a few hours during the working day, and within 24 hours otherwise. WhatsApp is the fastest way to reach me.</p></div>
+        </details>
+
+        <details>
+          <summary>How do I start?</summary>
+          <div class="faq-body"><p>Send me your manuscript or a chapter of it, with the word count, your deadline and one line about who the book is for. Message me on <a href="https://wa.me/2349157352302">WhatsApp</a> or email <a href="mailto:olasunkanmimistura5@gmail.com">olasunkanmimistura5@gmail.com</a>. Your free 1,000-word sample edit comes back before you spend anything.</p></div>
+        </details>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="sec-head" style="margin-bottom:1rem">
+        <h2>Send me the manuscript</h2>
+        <p class="lead">Tell me what you are writing and where you are stuck. The first 1,000 words are edited free.</p>
+      </div>
+      <div class="direct">
+        <a href="https://wa.me/2349157352302?text=Hi%20Motunrayo%2C%20I%27d%20like%20to%20talk%20about%20editing%20my%20book." target="_blank" rel="noopener">
+          <span class="ic" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.1c-.25.69-1.45 1.32-2 1.4-.51.08-1.16.11-1.87-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.61-1.21-3.07s.76-2.18 1.04-2.48c.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.07.91 2.22.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.01.96.3.15.5.22.57.35.07.12.07.72-.18 1.41z"/></svg>
+          </span>
+          <span><b>WhatsApp</b><span>+234 915 735 2302 — fastest reply</span></span>
+        </a>
+        <a href="mailto:olasunkanmimistura5@gmail.com?subject=Book%20editing%20enquiry">
+          <span class="ic" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6.5l9 6 9-6"/></svg>
+          </span>
+          <span><b>Email</b><span>olasunkanmimistura5@gmail.com</span></span>
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01668663d2d260cf58" target="_blank" rel="noopener">
+          <span class="ic" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.6 5.6c-2.3 0-4.1 1.5-4.8 3.9-1.1-1.7-2-3.6-2.5-5.2H8.5v6.3c0 1.2-1 2.3-2.3 2.3s-2.3-1-2.3-2.3V4.3H1.4v6.3c0 2.7 2.1 4.9 4.8 4.9s4.8-2.2 4.8-4.9v-1c.5 1 1.1 2 1.8 2.9l-1.5 7.2h2.5l1.1-5.3c1 .6 2.1 1 3.3 1h.4c2.7 0 4.9-2.2 4.9-5s-2.2-4.8-4.9-4.8zm0 7.4c-1 0-1.9-.4-2.7-1l.2-.9c.2-1.3.9-2.9 2.5-2.9 1.3 0 2.3 1 2.3 2.3s-1 2.5-2.3 2.5z"/></svg>
+          </span>
+          <span><b>Upwork</b><span>Hire with escrow protection</span></span>
+        </a>
+      </div>
+      <p class="note">Based in Lagos, Nigeria (GMT+1). Working with authors worldwide.</p>
+    </div>
+
+    <form id="quote-form" novalidate>
+      <div>
+        <label for="f-name">Your name</label>
+        <input id="f-name" name="name" type="text" placeholder="Pastor Grace Adeyemi" required>
+      </div>
+      <div>
+        <label for="f-title">Book title or working title</label>
+        <input id="f-title" name="title" type="text" placeholder="The Year of Quiet">
+      </div>
+      <div>
+        <label for="f-type">What do you think you need?</label>
+        <select id="f-type" name="type">
+          <option>Not sure — please advise</option>
+          <option>Developmental editing</option>
+          <option>Line editing</option>
+          <option>Copy editing</option>
+          <option>Proofreading</option>
+          <option>KDP / IngramSpark publishing prep</option>
+        </select>
+      </div>
+      <div>
+        <label for="f-words">Approximate word count</label>
+        <input id="f-words" name="words" type="text" inputmode="numeric" placeholder="45,000">
+      </div>
+      <div>
+        <label for="f-msg">What is the book about, and where are you stuck?</label>
+        <textarea id="f-msg" name="message" placeholder="A memoir about rebuilding faith after burnout. The first three chapters drag and I cannot tell why."></textarea>
+      </div>
+      <div class="cta-row" style="margin-top:.4rem">
+        <button class="btn btn-gilt" type="button" id="send-wa">Send on WhatsApp</button>
+        <button class="btn btn-ghost" type="button" id="send-mail">Send by email</button>
+      </div>
+      <p class="form-note">Nothing is stored on this site. Your details open directly in WhatsApp or your email app, and your manuscript stays confidential.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <p style="margin:0 0 .3rem"><strong>Motunrayo Olasunkanmi</strong> — Christian nonfiction book editor</p>
+      <p style="margin:0">Lagos, Nigeria · <a href="mailto:olasunkanmimistura5@gmail.com" style="color:var(--gilt)">olasunkanmimistura5@gmail.com</a> · <a href="https://wa.me/2349157352302" style="color:var(--gilt)">+234 915 735 2302</a></p>
+    </div>
+    <ul class="foot-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.upwork.com/freelancers/~01668663d2d260cf58" target="_blank" rel="noopener">Upwork</a></li>
+      <li><a href="#top">Back to top</a></li>
+    </ul>
+  </div>
+  <div class="wrap" style="margin-top:1.5rem;font-size:.82rem;opacity:.6">© <span id="yr">2026</span> Motunrayo Olasunkanmi. All rights reserved.</div>
+</footer>
+
+<a class="float" href="https://wa.me/2349157352302?text=Hi%20Motunrayo%2C%20I%27d%20like%20to%20talk%20about%20editing%20my%20book." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.1c-.25.69-1.45 1.32-2 1.4-.51.08-1.16.11-1.87-.12-.43-.14-.98-.32-1.69-.63-2.97-1.28-4.91-4.27-5.06-4.47-.15-.2-1.21-1.61-1.21-3.07s.76-2.18 1.04-2.48c.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.07.91 2.22.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.01.96.3.15.5.22.57.35.07.12.07.72-.18 1.41z"/></svg>
+</a>
+
+<!-- ================= STRUCTURED DATA (SEO / AEO / GEO) ================= -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"ProfessionalService",
+      "@id":"https://YOUR-USERNAME.github.io/#business",
+      "name":"Motunrayo Olasunkanmi — Christian Nonfiction Book Editor",
+      "description":"Developmental, line and copy editing plus proofreading for Christian nonfiction and general nonfiction manuscripts, prepared for Amazon KDP and IngramSpark publishing.",
+      "url":"https://YOUR-USERNAME.github.io/",
+      "image":"https://YOUR-USERNAME.github.io/assets/motunrayo.jpg",
+      "email":"olasunkanmimistura5@gmail.com",
+      "telephone":"+2349157352302",
+      "priceRange":"$$",
+      "currenciesAccepted":"USD",
+      "address":{"@type":"PostalAddress","addressLocality":"Lagos","addressRegion":"Lagos","addressCountry":"NG"},
+      "areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"United Kingdom"},{"@type":"Country","name":"Canada"},{"@type":"Country","name":"Nigeria"},{"@type":"Place","name":"Worldwide"}],
+      "availableLanguage":["English"],
+      "founder":{"@id":"https://YOUR-USERNAME.github.io/#person"},
+      "makesOffer":[
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Developmental editing","description":"Structure, argument, chapter order, pacing and theology review with a written editorial report."}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Line editing","description":"Sentence-level editing for rhythm, clarity and voice, delivered in tracked changes."}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Copy editing","description":"Grammar, punctuation, consistency, Scripture reference checking and a project style sheet."}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Proofreading","description":"Final error check before publication, including front and back matter."}},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"KDP and IngramSpark publishing prep","description":"Front and back matter, book description, keywords and metadata for self-publishing."}}
+      ]
+    },
+    {
+      "@type":"Person",
+      "@id":"https://YOUR-USERNAME.github.io/#person",
+      "name":"Motunrayo Olasunkanmi",
+      "jobTitle":"Christian Nonfiction Book Editor",
+      "description":"Book editor specialising in Christian nonfiction: memoirs, devotionals, theology, self-help and personal development manuscripts for pastors and first-time authors.",
+      "image":"https://YOUR-USERNAME.github.io/assets/motunrayo.jpg",
+      "email":"olasunkanmimistura5@gmail.com",
+      "telephone":"+2349157352302",
+      "url":"https://YOUR-USERNAME.github.io/",
+      "knowsAbout":["Developmental editing","Line editing","Copy editing","Proofreading","Christian nonfiction","Devotional writing","Memoir editing","Chicago Manual of Style","Amazon KDP","IngramSpark","Self-publishing"],
+      "address":{"@type":"PostalAddress","addressLocality":"Lagos","addressCountry":"NG"},
+      "sameAs":["https://www.upwork.com/freelancers/~01668663d2d260cf58"]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://YOUR-USERNAME.github.io/#website",
+      "url":"https://YOUR-USERNAME.github.io/",
+      "name":"Motunrayo Olasunkanmi — Book Editor",
+      "inLanguage":"en",
+      "publisher":{"@id":"https://YOUR-USERNAME.github.io/#person"}
+    },
+    {
+      "@type":"FAQPage",
+      "@id":"https://YOUR-USERNAME.github.io/#faq",
+      "mainEntity":[
+        {"@type":"Question","name":"What kind of books do you edit?","acceptedAnswer":{"@type":"Answer","text":"Christian nonfiction and general nonfiction: memoirs and testimonies, devotionals, Bible studies, theology and apologetics, sermon-to-book projects, Christian self-help, personal development, leadership, marriage and family books. I do not edit fiction, academic dissertations or technical manuals."}},
+        {"@type":"Question","name":"Do I need a developmental edit, a line edit, or just proofreading?","acceptedAnswer":{"@type":"Answer","text":"A developmental edit fixes structure, chapter order and argument. A line edit fixes heavy, repetitive or preachy prose. A copy edit handles grammar, Scripture references and consistency. Proofreading is the final error check before upload. Send the manuscript and I will tell you which one you actually need."}},
+        {"@type":"Question","name":"Can I see your work before I pay?","acceptedAnswer":{"@type":"Answer","text":"Yes. I edit 1,000 words of your manuscript free, with tracked changes and comments, before any payment."}},
+        {"@type":"Question","name":"How much does book editing cost?","acceptedAnswer":{"@type":"Answer","text":"Price depends on manuscript length, the level of editing needed and your deadline. I quote a fixed project price after reading a sample. Hourly work starts at $10 per hour through Upwork, and quotes are usually returned within 24 hours."}},
+        {"@type":"Question","name":"How long will editing my book take?","acceptedAnswer":{"@type":"Answer","text":"As a guide, a copy edit or proofread of a 50,000-word manuscript takes one to two weeks, a line edit two to three weeks, and a developmental edit three to four weeks. An exact delivery date is agreed in writing before work begins."}},
+        {"@type":"Question","name":"Will you change my voice?","acceptedAnswer":{"@type":"Answer","text":"No. Protecting your voice is the whole job. I cut padding, repetition and tangled sentences so what remains sounds more like you. Significant changes come with a margin comment explaining why, and you decide."}},
+        {"@type":"Question","name":"How do you handle Scripture and doctrine?","acceptedAnswer":{"@type":"Answer","text":"We agree your Bible translation before work starts and every quoted verse is checked against it. Citations are formatted consistently and paraphrases marked. On doctrine I do not impose my own position; questionable statements are raised as margin questions for the author to decide."}},
+        {"@type":"Question","name":"What style guide do you use?","acceptedAnswer":{"@type":"Answer","text":"The Chicago Manual of Style by default, with Merriam-Webster for spelling, or your publisher's guide if you have one. Every project includes a style sheet recording the choices made."}},
+        {"@type":"Question","name":"Do you use AI to edit my book?","acceptedAnswer":{"@type":"Answer","text":"No. Your manuscript is read and edited personally. Standard spelling and consistency checkers may be used as any professional editor would, but judgements about argument, voice and theology are human ones."}},
+        {"@type":"Question","name":"Will you help me publish on Amazon KDP or IngramSpark?","acceptedAnswer":{"@type":"Answer","text":"I prepare the manuscript for publishing: correctly ordered front and back matter, consistent headings, copyright page, author bio, and a book description with keywords. Cover design and interior formatting are handled by specialists I can refer you to."}},
+        {"@type":"Question","name":"Is my manuscript kept confidential?","acceptedAnswer":{"@type":"Answer","text":"Yes. No part of your manuscript is shared, quoted or published, and a non-disclosure agreement can be signed on request."}},
+        {"@type":"Question","name":"Do you take any rights or royalties in my book?","acceptedAnswer":{"@type":"Answer","text":"None. You keep full copyright, royalties and control. I am a service provider, not a publisher or partner."}},
+        {"@type":"Question","name":"English is my second language. Can you work with my draft?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it is common work. Grammar and phrasing are smoothed while keeping the cadence that makes the writing yours."}},
+        {"@type":"Question","name":"You are in Nigeria and I am not. Does that matter?","acceptedAnswer":{"@type":"Answer","text":"No. Lagos is GMT+1, which overlaps with UK and US working hours. Authors across the US, UK, Canada and Africa work with me by email, WhatsApp, Upwork messages and video calls."}},
+        {"@type":"Question","name":"How do I start working with you?","acceptedAnswer":{"@type":"Answer","text":"Send your manuscript or a chapter with the word count, your deadline and who the book is for, by WhatsApp on +234 915 735 2302 or email olasunkanmimistura5@gmail.com. A free 1,000-word sample edit comes back before you spend anything."}}
+      ]
+    },
+    {
+      "@type":"HowTo",
+      "@id":"https://YOUR-USERNAME.github.io/#process",
+      "name":"How to get your manuscript edited",
+      "step":[
+        {"@type":"HowToStep","position":1,"name":"Send the manuscript","text":"Send a Word file or Google Doc with word count, deadline and the intended reader."},
+        {"@type":"HowToStep","position":2,"name":"Free 1,000-word sample edit","text":"A section is edited free so you can see the approach before paying."},
+        {"@type":"HowToStep","position":3,"name":"Quote and schedule","text":"You receive a fixed price, clear scope and delivery date in writing."},
+        {"@type":"HowToStep","position":4,"name":"The edit","text":"Editing is done in tracked changes with margin comments, delivered in batches for longer books."},
+        {"@type":"HowToStep","position":5,"name":"Review and clean file","text":"You accept or reject changes, one revision round is included, and you receive a publish-ready file and style sheet."}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* year */
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+  /* mobile menu */
+  var burger = document.getElementById("burger"), menu = document.getElementById("menu");
+  burger.addEventListener("click", function(){
+    var open = menu.classList.toggle("open");
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+    burger.textContent = open ? "Close" : "Menu";
+  });
+  menu.addEventListener("click", function(e){
+    if(e.target.tagName === "A" && menu.classList.contains("open")){
+      menu.classList.remove("open"); burger.setAttribute("aria-expanded","false"); burger.textContent = "Menu";
+    }
+  });
+
+  /* hero: perform one line edit on load */
+  var ms = document.getElementById("ms"),
+      typing = document.getElementById("typing"),
+      caret = document.getElementById("caret"),
+      phrase = "I want to tell you about the night I stopped praying.",
+      i = 0;
+  function finish(){ caret.style.display = "none"; ms.classList.add("done"); }
+  if(reduce){ finish(); }
+  else{
+    (function type(){
+      if(i <= phrase.length){
+        typing.textContent = phrase.slice(0, i++);
+        setTimeout(type, 34);
+      } else {
+        setTimeout(finish, 900);
+      }
+    })();
+  }
+
+  /* sample before / after */
+  var before = "It was at that particular point in time that I came to the personal realisation that the God who I had been serving for the past twenty-two years of my life was not actually a God who was far away from me, but rather He was a God who was very much present in the midst of my situation, even though I could not feel Him at all.",
+      after  = "That was when I understood: the God I had served for twenty-two years was not distant. He was in the room. I simply could not feel Him.",
+      bNote  = "The author's first draft — 63 words, one sentence, five padding phrases.",
+      aNote  = "After a line edit — 27 words, three sentences, the same meaning and the same voice.",
+      txt = document.getElementById("sample-text"),
+      note = document.getElementById("sample-note"),
+      bBtn = document.getElementById("btn-before"),
+      aBtn = document.getElementById("btn-after");
+  function show(isAfter){
+    txt.textContent = isAfter ? after : before;
+    note.textContent = isAfter ? aNote : bNote;
+    aBtn.setAttribute("aria-pressed", isAfter ? "true" : "false");
+    bBtn.setAttribute("aria-pressed", isAfter ? "false" : "true");
+  }
+  bBtn.addEventListener("click", function(){ show(false); });
+  aBtn.addEventListener("click", function(){ show(true); });
+
+  /* quote form -> WhatsApp or email */
+  function val(id){ return (document.getElementById(id).value || "").trim(); }
+  function compose(){
+    var name = val("f-name") || "An author",
+        title = val("f-title") || "(untitled)",
+        type = document.getElementById("f-type").value,
+        words = val("f-words") || "not sure yet",
+        msg = val("f-msg") || "(no details yet)";
+    return "Hi Motunrayo,\n\nName: " + name +
+           "\nBook: " + title +
+           "\nService needed: " + type +
+           "\nWord count: " + words +
+           "\n\nAbout the book:\n" + msg +
+           "\n\nSent from your website.";
+  }
+  function guard(){
+    if(!val("f-name")){
+      document.getElementById("f-name").focus();
+      document.getElementById("f-name").style.borderColor = "#D6455B";
+      return false;
+    }
+    return true;
+  }
+  document.getElementById("send-wa").addEventListener("click", function(){
+    if(!guard()) return;
+    window.open("https://wa.me/2349157352302?text=" + encodeURIComponent(compose()), "_blank", "noopener");
+  });
+  document.getElementById("send-mail").addEventListener("click", function(){
+    if(!guard()) return;
+    window.location.href = "mailto:olasunkanmimistura5@gmail.com?subject=" +
+      encodeURIComponent("Book editing enquiry — " + (val("f-title") || val("f-name"))) +
+      "&body=" + encodeURIComponent(compose());
+  });
+  document.getElementById("f-name").addEventListener("input", function(){ this.style.borderColor = ""; });
+
+  /* one FAQ open at a time */
+  var all = document.querySelectorAll("#faq details");
+  all.forEach(function(d){
+    d.addEventListener("toggle", function(){
+      if(d.open){ all.forEach(function(o){ if(o !== d) o.open = false; }); }
+    });
+  });
+})();
+</script>
+</body>
+</html>
